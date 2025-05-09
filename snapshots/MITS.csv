@@ -1,0 +1,267 @@
+Title,Description,Issue ID,URL,State,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+Header → Navigation / Mega Menu : Mega menu overlaps header menu items on smaller screen sizes," When the screen size is reduced (responsive view), the mega menu opens and overlaps the main header menu items, causing display issues and potentially affecting navigation usability.
+Steps to Reproduce:
+
+Open the website on a desktop.
+
+Reduce the screen width gradually (or use mobile responsive view in dev tools).
+
+Hover or click on a header menu item that opens a mega menu (e.g., “Students”).
+
+Observe how the mega menu overlaps existing header elements.
+Expected Result: The mega menu should open cleanly without overlapping the main header elements.
+Actual Result: Mega menu content overlaps the header items and affects layout clarity.
+
+https://jam.dev/c/553e3b8a-d5e1-44de-bb3c-27eb3648f04f
+
+
+Ss: ![Screenshot_2025-04-25_at_11.18.21_AM](/uploads/f6d7741e06df60a859dde535beadec11/Screenshot_2025-04-25_at_11.18.21_AM.png)",165,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/165,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-25 05:46:41,2025-05-06 06:18:37,,,,"Dev Dependency,Dev Test Phase 2,HTML,P2,Repeated Bugs,Status : Reopened,Type : Bug",0,0
+Home :  Banner : Ticker flow is not smooth on Safari browser,"The banner ticker animation appears choppy and does not flow smoothly when viewed in the Safari browser. This affects the user experience by making the ticker difficult to read and visually unappealing.
+
+Steps to Reproduce:
+
+Open the website in Safari browser.
+
+Observe the banner ticker animation at the top of the page.
+
+Notice that the ticker flow is not smooth compared to other browsers.
+
+Expected Result:
+The ticker should scroll smoothly and continuously without any choppiness or lag.
+
+Actual Result:
+The ticker scrolls unevenly and appears choppy on Safari.",169,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/169,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-25 06:17:51,2025-05-06 06:23:18,,,,"Dev Test Phase 2,HTML,Not Fixed,P3,Status : No action Required,Type : Enhancement",0,0
+"The ""SCROLL DOWN"" text lacks sufficient visibility","",171,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/171,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-25 08:11:54,2025-05-06 06:41:15,,,,"Dev Test Phase 2,HTML,Not Fixed,P3,Status : No action Required,Type : Enhancement",0,0
+Multiple Console Errors and Warnings Impacting Functionality and Performance,"The application is experiencing the following critical console errors and warnings:
+[text](https://www.mits.dev6.intersmarthosting.in/)
+Back/Forward Cache Issue
+
+Error: Unchecked runtime.lastError: The page keeping the extension port is moved into back/forward cache, so the message channel is closed.
+Impact: Extension communication may break when navigating browser history.
+WebSocket Connection Failure
+
+Error: WebSocket connection to 'wss://ws.jam.dev/graphql' failed: Establishing a tunnel via proxy server failed.
+Impact: Real-time data fetch via WebSocket is not functioning.
+Failed Fetch Requests
+
+Error: Uncaught (in promise) TypeError: Failed to fetch at sw.js:2279.
+Impact: Resources fail to load, leading to broken functionality.
+MobX-State-Tree Errors
+
+Error: [mobx-state-tree] You are trying to read or write to an object that is no longer part of a state tree.
+Impact: Data binding and state management issues causing potential crashes or unexpected behavior.
+Blocked Resources
+
+Error: Denying load of chrome-extension://pbcpfbcibpcbfbmddogfhcijfpboeaaf/inject.js. Resources must be listed in the web_accessible_resources manifest key in order to be loaded by pages outside the extension.
+Impact: Chrome extension is unable to inject scripts, leading to missing functionality.
+404 Resource Not Found
+
+Error: Failed to load resource: the server responded with a status of 404 (Not Found).
+Impact: Missing resources cause UI elements or scripts to malfunction.
+Google Analytics Blocked
+
+Error: Failed to load resource: net::ERR_BLOCKED_BY_CLIENT at www.google-analytics.com.
+Impact: Analytics tracking is blocked, affecting data collection.
+Swiper Loop Mode Issue
+
+Warning: Swiper Loop Warning: The number of slides is not enough for loop mode, it will be disabled or not function properly.
+Impact: Carousel or slider functionality is broken or degraded.
+Asynchronous Response Error
+
+Error: Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received.
+Impact: Unresponsive listeners lead to incomplete or failed asynchronous operations.
+General Resource Loading Failures
+
+Errors: Failed to load resource: net::ERR_FAILED and similar issues.
+Impact: Various resources (images, scripts, etc.) fail to load, affecting user experience.
+Suggested Fixes:
+Address state-tree detachment issues in MobX by detaching nodes before removal or avoiding usage post-removal.
+Debug WebSocket proxy configuration to ensure proper tunneling.
+Ensure all required resources are accessible and listed in the appropriate manifest (e.g., web_accessible_resources).
+Resolve missing or broken fetch requests by verifying endpoints and resource availability.
+Add sufficient slides or adjust slidesPerView and slidesPerGroup in Swiper configurations.
+Investigate and fix back/forward cache issues to maintain extension port stability across navigation.
+Whitelist analytics scripts if needed for better tracking.
+Conduct testing to ensure no asynchronous operations leave unresponsive listeners.![Screenshot_2025-04-25_at_2.11.26_PM](/uploads/5b9a4de34f0cfcaac125ec7174bc7077/Screenshot_2025-04-25_at_2.11.26_PM.png)",172,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/172,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-25 08:41:22,2025-05-06 06:21:52,,,,"Dev Test Phase 2,HTML,Not Fixed,P0,Status : New,Type : Bug",0,0
+Unable to Create Admin User – Password Field Format Error,"Environment:
+
+URL: https://www.mits.dev6.intersmarthosting.in/admin-portal/users/create
+Browser: Safari
+Device: MacBook
+Date: 28 April 2025
+Description:
+When trying to create a new admin user in the ""Admin Control Panel → Users → Create Admin"" section, the form submission fails with an error message: ""Something went wrong"".
+Additionally, the password field shows ""The password field format is invalid"", even though the password meets common requirements.
+
+Steps to Reproduce:
+
+Navigate to the Admin Control Panel → Users → Create Admin.
+Fill in the Name, Email, and Password fields, and confirm the password.
+Select a Role.
+Click the Create button.
+Expected Result:
+The new admin user should be created successfully.
+
+Actual Result:
+An error banner (""Something went wrong"") appears, and the password field shows an invalid format error.![Screenshot_2025-04-28_at_11.25.25_AM](/uploads/faa65c394790bc636734d540557fbb92/Screenshot_2025-04-28_at_11.25.25_AM.png)",195,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/195,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-28 05:58:40,2025-05-06 16:43:54,,,,"Dev Test Phase 2,Functional,P0,Status : Reopened,Type : Bug",0,0
+Contact Form – Error Messages Are Not Clearly Visible,"Environment:
+
+URL: https://www.mits.dev6.intersmarthosting.in/contact
+Browser: Safari
+Device: MacBook
+Date: 28 April 2025
+Description:
+On the Contact page, when users enter invalid information into the form fields (like email and phone number), error messages are displayed but are not clearly visible. The text blends into the background or is too subtle to catch the user's attention easily.
+
+Steps to Reproduce:
+
+Navigate to the Contact page.
+Enter invalid email and phone number values.
+Try to submit the form.
+Observe the error messages under the input fields.
+Expected Result:
+Error messages should be clearly visible — using a contrasting color (e.g., red text on a white/light background) and appropriate font size to alert users immediately.
+
+Actual Result:
+Error messages appear but are difficult to notice because they are either too faint, too small, or blend into the background color.
+
+Impact:
+Users may miss the error messages and fail to correct their entries, leading to failed form submissions and poor user experience.
+
+Additional Notes:
+
+Suggest increasing the font size, changing the error text color (e.g., red or dark bold color), and possibly adding an error icon next to the message.
+Good accessibility practices (like WCAG compliance) recommend a color contrast ratio of at least 4.5:1 for text.",198,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/198,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-28 07:47:17,2025-05-06 08:42:21,,,,"Dev Test Phase 2,HTML,Not Fixed,P1,Type : Bug",0,0
+Incorrect Breadcrumb for Category in Dashboard,"![Screenshot_2025-04-28_at_3.09.29_PM](/uploads/ad6cb1851b2374aa91fe991d9f53d83c/Screenshot_2025-04-28_at_3.09.29_PM.png)
+
+https://www.mits.dev6.intersmarthosting.in/admin-portal/header-navigation-categories
+
+
+The breadcrumb for the Category page in the Dashboard is incorrect. It currently shows as Category > Dashboard > Category, which is misleading. The breadcrumb should properly reflect the current page hierarchy, and in this case, it should be under the page ""Navigation"".",204,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/204,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-28 09:39:48,2025-05-08 08:01:15,,,,"Dev Test Phase 2,Functional,P2,Status : Reopened,Type :  Correction",0,0
+t is possible to create a submenu for an already deactivated main menu,"When creating a menu, it is possible to create a submenu under a main menu that has already been deactivated. This should not be allowed, as deactivated main menus should not support the creation of submenus.
+
+Steps to Reproduce:
+
+Go to the Menu Management page.
+Deactivate a main menu (mark it as deactivated).
+Try to create a submenu under the deactivated main menu.
+Submit the submenu creation.
+Expected Result:
+The system should prevent the creation of a submenu under a deactivated main menu. An error or validation message should inform the user that submenus cannot be created for deactivated menus.
+
+Actual Result:
+It is possible to create a submenu for a deactivated main menu without any error or validation message.![Screenshot_2025-04-28_at_3.15.09_PM](/uploads/9d0fc3a4288fe8127e6c60356763a869/Screenshot_2025-04-28_at_3.15.09_PM.png)
+
+
+
+https://www.mits.dev6.intersmarthosting.in/admin-portal/header-navigation-categories",205,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/205,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-28 09:45:23,2025-05-08 08:11:54,,,,"Dev Test Phase 2,Functional,P1,Status : Reopened,Type : Bug",0,0
+Placement Page - Some Data in Created Graphs Not Visible,![Screenshot_2025-04-29_at_12.59.32_AM](/uploads/e4efae4840a558377bf65cd92dcb3458/Screenshot_2025-04-29_at_12.59.32_AM.png),230,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/230,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-28 19:29:54,2025-05-08 08:23:31,,,,"Dev Test Phase 2,Functional,Not Fixed,P0,Status : Reopened,Type : Bug",0,0
+Placement Page – Mismatch Between Frontend and Backend Section Titles,"![Screenshot_2025-04-29_at_10.21.50_AM](/uploads/8a9dc2494f2a34a77f1c3b4385b778ee/Screenshot_2025-04-29_at_10.21.50_AM.png)
+
+
+https://www.mits.dev6.intersmarthosting.in/admin-portal/placement-cms/MQ==/edit
+
+https://www.mits.dev6.intersmarthosting.in/placement#InternshipPolicy",241,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/241,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-29 04:52:09,2025-05-08 07:52:36,,,,"Dev Test Phase 2,Functional,P3,Status : Reopened,Type :  Correction",0,0
+Research > Notifications: Character Limit Mismatch in Title Field,"![Screenshot_2025-04-29_at_10.57.11_AM](/uploads/18ddc43f768be23e9640a3f089987d34/Screenshot_2025-04-29_at_10.57.11_AM.png)
+
+In the Research > Notifications section, the Title field shows a limit of 200 characters, but when submitting, it throws an error saying:
+
+""The title field must not be greater than 191 characters.""
+
+This inconsistency misleads users and results in submission errors.
+
+🧪 Steps to Reproduce:
+Go to Research > Notifications in the dashboard.
+
+Enter a title with around 195-200 characters.
+
+Submit the form.
+
+Receive error: “Title must not be greater than 191 characters.”
+
+🚫 Actual Behavior:
+UI allows up to 200 characters.
+
+Backend validation rejects anything over 191.
+
+✅ Expected Behavior:
+Either:
+
+UI should enforce a 191-character limit, or
+
+Backend should accept up to 200 characters, as stated.",246,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/246,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-29 05:27:55,2025-05-06 16:38:03,,,,"Clarification Required From Developer,Dev Test Phase 2,Functional,P2",0,0
+Console errors found across all pages,![Screenshot_2025-04-29_at_2.57.24_PM](/uploads/71833ec3de6c52c15c401b45cf0c6f13/Screenshot_2025-04-29_at_2.57.24_PM.png),257,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/257,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-29 09:27:55,2025-05-06 06:58:43,,,,"Dev Test Phase 2,HTML,Not Fixed,P1,Status : New,Type : Bug",0,0
+Low Pagespeed and performance,"Mobile : 57 : https://pagespeed.web.dev/analysis/https-www-mits-dev6-intersmarthosting-in/7gslgusf2n?form_factor=mobile
+
+Desktop : 78 : https://pagespeed.web.dev/analysis/https-www-mits-dev6-intersmarthosting-in/7gslgusf2n?form_factor=desktop",265,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/265,Open,BugSlayer,abhiram9,"","",No,No,,2025-04-29 10:31:38,2025-05-06 06:50:35,,,,"Dev Test Phase 2,HTML,Not Fixed,P0,Status : New,Type : Enhancement",0,0
+Home banner : Ticker/ Notification item overlaps,"![Screenshot_2025-05-06_at_11.43.17_AM](/uploads/28d9b855152967758b89f5d8b73eee40/Screenshot_2025-05-06_at_11.43.17_AM.png)
+
+
+https://www.mits.dev6.intersmarthosting.in",266,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/266,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 06:14:09,2025-05-06 06:51:33,,,,"Dev Test Phase 2,HTML,P1,Regression,Type : Bug",0,0
+Floating Button : Department texts were left aligned  before now it is centre aligned,![Screenshot_2025-05-06_at_12.04.03_PM](/uploads/981db308e122e4be8b97f83efb035c2a/Screenshot_2025-05-06_at_12.04.03_PM.png),267,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/267,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 06:34:38,2025-05-06 06:34:38,,,,"Dev Test Phase 2,Deviation,HTML,P3,Regression,Type : Enhancement",0,0
+Added only 2 sliders but shows 8 on frontend,![Screenshot_2025-05-06_at_12.09.30_PM](/uploads/3015bc213b3f8fe2d29ab09211846811/Screenshot_2025-05-06_at_12.09.30_PM.png)![Screenshot_2025-05-06_at_12.09.41_PM](/uploads/0faf64ba76f9f1b6a8b4529edefd9d16/Screenshot_2025-05-06_at_12.09.41_PM.png),268,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/268,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 06:40:11,2025-05-06 06:40:11,,,,"Dev Test Phase 2,HTML,P1,Regression,Type : Bug",0,0
+Home : about : Padding is missing between text and the shape,"",269,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/269,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 08:41:17,2025-05-06 08:41:17,,,,"Dev Test Phase 2,HTML,P3,Regression,Type : Enhancement",0,0
+"On smaller screens, the slider number goes behind or overlaps the logo or side border","![Screenshot_2025-05-06_at_2.18.04_PM](/uploads/284fd5583e0ecb7392789ec2e6eb1629/Screenshot_2025-05-06_at_2.18.04_PM.png)
+
+![Screenshot_2025-05-06_at_2.32.39_PM](/uploads/8e58b4fe5f024d5446fdd1a38d6f0bba/Screenshot_2025-05-06_at_2.32.39_PM.png)",270,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/270,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 08:48:55,2025-05-06 09:02:51,,,,"Dev Test Phase 2,HTML,P3,Status : New,Type : Bug",0,0
+Research : add pdf : PDF Selector box shows all type of files,"",271,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/271,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 09:34:49,2025-05-06 09:34:49,,,,"Dev Test Phase 2,Functional,P2,Regression,Type : Bug",0,0
+Research : Flash ticker :  Notifications title is wrong.,![Screenshot_2025-05-06_at_3.07.43_PM](/uploads/7231d80f75d46172257e6cdb16064c2e/Screenshot_2025-05-06_at_3.07.43_PM.png),272,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/272,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-06 09:38:00,2025-05-06 09:38:27,,,,"Dev Test Phase 2,HTML,P4,Status : New,Type : Bug",0,0
+Home: Departments : items are not being navigated to its page,![Screenshot_2025-05-08_at_1.16.42_PM](/uploads/2d84235db8e09d9a123313c03e0f32af/Screenshot_2025-05-08_at_1.16.42_PM.png),273,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/273,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 07:49:04,2025-05-08 07:49:04,,,,"Dev Test Phase 2,Functional,P0,Regression,Type : Bug",0,0
+BE : Statistics : Button : the error message is wrong. it says add value less than or equal to 100 causes unable to update the higher value data,![Screenshot_2025-05-08_at_1.44.46_PM](/uploads/62cdb6ca0ec95c77160c00af3cfd7d71/Screenshot_2025-05-08_at_1.44.46_PM.png),274,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/274,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 08:15:25,2025-05-09 05:32:08,,,,"Dev Test Phase 2,Functional,P0,Regression,Type : Bug",0,0
+Placement skill mapping has two boxes but only one box is editable from backend and the title of the second box is missing,"https://www.mits.dev6.intersmarthosting.in/admin-portal/placement-cms/MQ==/skill-mappings
+
+![Screenshot_2025-05-08_at_2.47.00_PM](/uploads/c6f763786dd19f84f4c929a248e143ee/Screenshot_2025-05-08_at_2.47.00_PM.png)",275,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/275,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 09:16:47,2025-05-08 09:17:12,,,,"Dev Test Phase 2,Functional,P1,Status : New,Type : Bug",0,0
+Milestone : Invalid icons showing after the years text,n![Screenshot_2025-05-08_at_3.42.00_PM](/uploads/1abefa0c7bba866cee9c3bb4c39146a8/Screenshot_2025-05-08_at_3.42.00_PM.png,276,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/276,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 10:13:18,2025-05-08 10:13:18,,,,"Dev Test Phase 2,HTML,P1,Status : New,Type : Bug",0,0
+Management : text before read more is truncated,"https://www.mits.dev6.intersmarthosting.in/admin-portal/college-council-cms
+![Screenshot_2025-05-08_at_4.34.41_PM](/uploads/7ae146c305b9fbdc6a0ca01e7e7a67fb/Screenshot_2025-05-08_at_4.34.41_PM.png)",277,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/277,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 11:05:19,2025-05-08 11:05:19,,,,"Dev Test Phase 2,HTML,P2,Status : New,Type : Bug",0,0
+College Council : Sort order of “College Council” section and “Objectives” section is getting clashed.,"",278,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/278,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 11:06:35,2025-05-08 11:06:35,,,,"Dev Test Phase 2,Functional,P1,Status : New,Type : Bug",0,0
+College Council : Objectives : PDF Button is showing in 2 lines,![Screenshot_2025-05-08_at_4.38.52_PM](/uploads/8cdbd54f58284a67de69e10b7617c081/Screenshot_2025-05-08_at_4.38.52_PM.png),279,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/279,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-08 11:09:39,2025-05-08 11:09:39,,,,"Dev Test Phase 2,HTML,P4,Status : New,Type : Enhancement",0,0
+Slider: Short description is not showing anywhere,"",280,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/280,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 04:38:15,2025-05-09 04:39:19,,,,"Dev Test Phase 2,HTML,P1,Status : New,Type : Bug",0,0
+Slider : Content is not showing in 2 lines as per the design,![Screenshot_2025-05-09_at_10.08.59_AM](/uploads/2d73158076fbf3808fc81f61066d7ebd/Screenshot_2025-05-09_at_10.08.59_AM.png),281,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/281,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 04:39:18,2025-05-09 04:42:25,,,,"Dev Test Phase 2,HTML,P1,Status : New,Type : Bug",0,0
+"Slider : when title is lengthier , the red background is showing too far from MITS : also need to decrease transparency","",282,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/282,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 04:42:24,2025-05-09 05:25:52,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Bug",0,0
+"Courses : Delete: the delete alert is not being closed immediately causes ""an error occurred"" alert when clicked delete again","",283,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/283,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 04:50:03,2025-05-09 04:51:08,,,,"Dev Test Phase 2,Functional,P2,Status : New,Type : Bug",0,0
+Notification slider appears with delay instead of immediately on page load,https://www.mits.dev6.intersmarthosting.in,284,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/284,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:28:54,2025-05-09 05:28:54,,,,"Dev Test Phase 2,HTML,P4,Status : New,Type : Bug",0,0
+Sister Company names are not showing as tooltip,https://www.mits.dev6.intersmarthosting.in,285,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/285,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:34:03,2025-05-09 05:34:23,,,,"Dev Test Phase 2,HTML,P1,Status : New,Type : Bug",0,0
+Top Navigation  : Placement partners are not visible,"![Screenshot_2025-05-09_at_11.07.51_AM](/uploads/2d883498db456a17982c31cb6b30c131/Screenshot_2025-05-09_at_11.07.51_AM.png)
+
+
+![Screenshot_2025-05-09_at_11.07.58_AM](/uploads/77a252a8d1e8498625410823c8f46524/Screenshot_2025-05-09_at_11.07.58_AM.png)
+
+https://www.mits.dev6.intersmarthosting.in",286,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/286,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:40:47,2025-05-09 05:40:47,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Bug",0,0
+Collabrations(all pages) : pdf : if no link added/ or none is selected : the link should not be clickable,"",287,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/287,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:42:20,2025-05-09 05:46:22,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Enhancement",0,0
+Search Result : Search result text is not visible,![Screenshot_2025-05-09_at_11.18.58_AM](/uploads/6b733ebdba432082bb9ad819a0aa4818/Screenshot_2025-05-09_at_11.18.58_AM.png),288,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/288,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:49:23,2025-05-09 05:49:23,,,,"Dev Test Phase 2,HTML,P0,Regression,Status : New",0,0
+Courses : Added data except the title is not reflecting on frontend instead of default data and links,![Screenshot_2025-05-09_at_11.28.35_AM](/uploads/51726d8c95f474bfebb83a3fb88dbe3b/Screenshot_2025-05-09_at_11.28.35_AM.png),289,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/289,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 05:59:11,2025-05-09 05:59:11,,,,"Dev Test Phase 2,Functional,P0,Status : New,Type : Bug",0,0
+"Departments : When no data added to tabs, the tabs are showing also when no content is added redirects to 404 page","",290,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/290,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:10:34,2025-05-09 06:14:13,,,,"Dev Test Phase 2,Functional,HTML,P2,Status : New,Type : Bug",0,0
+College Council : Sort order of “College Council” section and “Objectives” section is getting clashed.,"https://www.mits.dev6.intersmarthosting.in/college-council
+
+https://www.mits.dev6.intersmarthosting.in/admin-portal/college-council-cms",291,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/291,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:11:49,2025-05-09 06:11:49,,,,"Dev Test Phase 2,Functional,P0,Status : New,Type : Bug",0,0
+IQAC : Character restriction in “Functions” section should be removed as per the client req.,https://www.mits.dev6.intersmarthosting.in/iqac,292,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/292,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:19:09,2025-05-09 06:19:09,,,,"Dev Test Phase 2,Functional,P1,Status : New,Type : Enhancement",0,0
+IQAC : (ALL PAGES) The pdf icon is only fully visible after clicked,"![Screenshot_2025-05-09_at_11.50.50_AM](/uploads/9f106482eebd11e43c4c5be877fe868f/Screenshot_2025-05-09_at_11.50.50_AM.png)
+
+https://www.mits.dev6.intersmarthosting.in/iqac",293,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/293,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:22:12,2025-05-09 06:22:12,,,,"Dev Test Phase 2,HTML,P3,Status : New,Type : Bug",0,0
+"Sister Concerns, News , Departments Etc : Sort order is not getting updated",https://www.mits.dev6.intersmarthosting.in/admin-portal/management-cms/MQ==/management-group,294,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/294,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:33:46,2025-05-09 10:21:16,,,,"Dev Test Phase 2,Functional,P0,Status : New,Type : Bug",0,0
+Department : Placements : added image is not showing on frontend,"![Screenshot_2025-05-09_at_12.14.43_PM](/uploads/55236a8888f4c7e805b64fc1a8173bdc/Screenshot_2025-05-09_at_12.14.43_PM.png)
+
+![Screenshot_2025-05-09_at_12.14.49_PM](/uploads/9fefaedd610fced5fb978abfe7f43359/Screenshot_2025-05-09_at_12.14.49_PM.png)",295,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/295,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:45:28,2025-05-09 06:45:28,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Bug",0,0
+Department : Placements : It asks to enter Count while adding image :,![Screenshot_2025-05-09_at_12.17.50_PM](/uploads/e7fd3618d11cfeccc7fc4f843c5712b5/Screenshot_2025-05-09_at_12.17.50_PM.png),296,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/296,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:48:21,2025-05-09 06:48:21,,,,"Dev Test Phase 2,Functional,P1,Status : New,Type : Bug",0,0
+Department : Infrastructure :Infrastructure part animation and design are different from the ux,"![Screenshot_2025-05-09_at_12.22.34_PM](/uploads/49e2bd09ce00302c99e62f1e48a866f1/Screenshot_2025-05-09_at_12.22.34_PM.png)
+
+![Screenshot_2025-05-09_at_12.22.40_PM](/uploads/b0f2a7e4275383f3301c53f0c856f0e5/Screenshot_2025-05-09_at_12.22.40_PM.png)
+
+
+https://www.mits.dev6.intersmarthosting.in/department/department-of-computer-science#InfrastructureLanding",297,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/297,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 06:53:02,2025-05-09 06:53:13,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Bug",0,0
+Departments : Awards : This tab is missing in the cms page (shows a s editable filed only),"![Screenshot_2025-05-09_at_2.28.45_PM](/uploads/5581054d60413f40d6b598d7f1e8feeb/Screenshot_2025-05-09_at_2.28.45_PM.png)
+
+![Screenshot_2025-05-09_at_2.28.54_PM](/uploads/ce66ae737b926a6a05ff79a971f0d526/Screenshot_2025-05-09_at_2.28.54_PM.png)
+
+![Screenshot_2025-05-09_at_2.29.25_PM](/uploads/f1817485869c85d525430ad33b53531f/Screenshot_2025-05-09_at_2.29.25_PM.png)",298,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/298,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 08:59:41,2025-05-09 08:59:41,,,,"Dev Test Phase 2,Functional,HTML,P0,Status : New,Type : Bug",0,0
+Department : dashboard : menu : Awards menu is highlighted when clicked department and then awards and then departments,![Screenshot_2025-05-09_at_2.42.56_PM](/uploads/707ec8843225db4b022a509be9dbdb78/Screenshot_2025-05-09_at_2.42.56_PM.png),299,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/299,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 09:13:19,2025-05-09 09:13:19,,,,"Dev Test Phase 2,Functional,P3,Status : New,Type : Bug",0,0
+Awards : Event item shows without content,![Screenshot_2025-05-09_at_2.45.31_PM](/uploads/21fff87580fa88b3ecf0346417a04dfd/Screenshot_2025-05-09_at_2.45.31_PM.png),300,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/300,Open,BugSlayer,abhiram9,"","",Yes,No,,2025-05-09 09:16:12,2025-05-09 09:16:12,,,,"Dev Test Phase 2,HTML,P2,Status : New,Type : Bug",0,0
+Departments : Gallery section shows as news and events inside WITHOUT ANY CONTENT,"![Screenshot_2025-05-09_at_3.33.32_PM](/uploads/f98933b199a3a09a92e5c6e53686d1c2/Screenshot_2025-05-09_at_3.33.32_PM.png)
+
+https://www.mits.dev6.intersmarthosting.in/department/department-of-computer-science#InfrastructureLanding",301,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/301,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 10:03:49,2025-05-09 11:01:27,,,,"Dev Test Phase 2,HTML,P0,Status : New,Type : Bug",0,0
+disabled department page shows on frontend,https://www.mits.dev6.intersmarthosting.in/department/department-of-computer-science#InfrastructureLanding,302,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/302,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 10:07:15,2025-05-09 10:07:15,,,,"Dev Test Phase 2,Functional,P0,Status : New,Type : Bug",0,0
+It shows 404 page when created award via custom page and shows invalid slug on the url,"",303,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/303,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 10:14:42,2025-05-09 10:14:42,,,,"Dev Test Phase 2,Functional,P0,Status : New,Type : Bug",0,0
+Departments : our mission text size is different from the UX,"![Screenshot_2025-05-09_at_4.21.24_PM](/uploads/3d1e932b63fcba28df8881380447d23c/Screenshot_2025-05-09_at_4.21.24_PM.png)
+
+https://www.mits.dev6.intersmarthosting.in/department/computer-science-2#Gallery",304,https://gitlab.com/ManualProjects/php/cmsphpcust25/mits/-/issues/304,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-09 10:52:19,2025-05-09 10:52:19,,,,"Dev Test Phase 2,Deviation,HTML,P2,Status : New",0,0
