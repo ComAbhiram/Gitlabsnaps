@@ -1,0 +1,191 @@
+Title,Description,Issue ID,URL,State,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+"Admission form >  After form submission,  Hyperlink in Success Message Not Recognizable Before Hovering",https://jam.dev/c/e5081193-24b7-43d5-aa2a-3b85b8351359,10,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/10,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-04-01 06:38:05,2025-05-09 10:55:56,,,,"After Live,HTML,P3,Status : New,Type :  Correction",0,0
+Home > Highlights & Events > Navigation arrows > Background Visible Through Arrows When Sliding,https://jam.dev/c/436dcfcd-8a93-4c9c-b2c2-e4b1e9154865,116,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/116,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-04-03 11:13:49,2025-05-09 12:10:21,,,,"After Live,HTML,P4,Status : New,Type :  Correction",0,0
+Performance is low,https://jam.dev/c/f64f9731-f634-4aeb-ae88-02d08392a9ee,148,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/148,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 05:29:55,2025-05-09 05:29:55,,,,"After Live,HTML,P1,Performance,Status : New",0,0
+Some js files are not minified,![image](/uploads/7d5124e3b7e7bb14409185f80ce77404/image.png){width=815 height=359},149,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/149,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 05:34:48,2025-05-09 05:34:48,,,,"After Live,HTML,P4,Performance,Status : New",0,0
+Broken links are found,![image](/uploads/965a40f118035bfa4121aa82951ead47/image.png){width=611 height=330},150,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/150,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 05:38:25,2025-05-09 05:38:25,,,,"After Live,HTML,P2,Status : New,Type : Bug",0,0
+Security headers are missing,![image](/uploads/df58acae46c54514f42d586253332385/image.png){width=959 height=402},151,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/151,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 05:49:09,2025-05-09 05:49:09,,,,"After Live,HTML,P2,Security,Status : New",0,0
+Images over 300kb,https://www.ciba.co.in/frontend/images/dwn.gif,152,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/152,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 06:43:14,2025-05-09 06:43:14,,,,"After Live,Functional,SEO,Status : New,Type :  Correction",0,0
+Images > Missing Alt text,"https://www.ciba.co.in/frontend/images/Email.svg
+https://www.ciba.co.in/frontend/images/wrng.png
+https://www.ciba.co.in/frontend/images/Phone.svg",153,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/153,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 06:49:59,2025-05-09 12:37:21,,,,"After Live,Functional,P3,SEO,Status : New,Type : Bug",0,0
+Meta description missing,"https://www.ciba.co.in/ktu-syllabus
+https://www.ciba.co.in/swayam-course
+https://www.ciba.co.in/placement
+https://www.ciba.co.in/highlights
+https://www.ciba.co.in/specilaization/marketing
+https://www.ciba.co.in/specilaization/operations
+https://www.ciba.co.in/global-exposure
+https://www.ciba.co.in/academics
+https://www.ciba.co.in/specilaization/systems
+https://www.ciba.co.in/grirevance
+https://www.ciba.co.in/specilaization/human-resource
+https://www.ciba.co.in/leadership
+https://www.ciba.co.in/leep
+https://www.ciba.co.in/facilities
+https://www.ciba.co.in/corporate-relationship
+https://www.ciba.co.in/examinations
+https://www.ciba.co.in/specilaization/finance",154,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/154,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 06:52:20,2025-05-09 12:37:32,,,,"After Live,Functional,P3,SEO,Status : New,Type : Bug",0,0
+Images:Missing size attribute,"https://www.ciba.co.in/frontend/images/lbg.png
+https://www.ciba.co.in/storage/1563/s5.webp
+https://www.ciba.co.in/storage/1583/s1.webp
+https://www.ciba.co.in/frontend/images/bgshape.png
+https://www.ciba.co.in/frontend/images/Email.svg
+https://www.ciba.co.in/frontend/images/wrng.png
+https://www.ciba.co.in/frontend/images/mail.svg
+https://www.ciba.co.in/storage/1573/s2.webp
+https://www.ciba.co.in/frontend/images/dwn.gif
+https://www.ciba.co.in/frontend/images/enqBg.png
+https://www.ciba.co.in/frontend/images/rarw.svg
+https://www.ciba.co.in/frontend/images/w1.webp
+https://www.ciba.co.in/frontend/images/call.svg
+https://www.ciba.co.in/frontend/images/events.svg
+https://www.ciba.co.in/storage/1666/enq1.webp
+https://www.ciba.co.in/storage/1568/s3.webp
+https://www.ciba.co.in/frontend/images/play.svg
+https://www.ciba.co.in/storage/587/d5.webp
+https://www.ciba.co.in/storage/89/shawn.webp
+https://www.ciba.co.in/frontend/images/Line.svg
+https://www.ciba.co.in/storage/88/indrajit.webp
+https://www.ciba.co.in/storage/285/dineshpthampi.webp
+https://www.ciba.co.in/frontend/images/Phone.svg
+https://www.ciba.co.in/storage/1578/s4.webp
+https://www.ciba.co.in/storage/1619/computer-lab.webp
+https://www.ciba.co.in/storage/1631/discussion-hall.webp
+https://www.ciba.co.in/storage/1625/library.webp
+https://www.ciba.co.in/storage/1613/conference-hall.webp
+https://www.ciba.co.in/storage/1607/cafetarea.webp
+https://www.ciba.co.in/frontend/images/CIBA.png
+https://www.ciba.co.in/storage/1637/2.webp
+https://www.ciba.co.in/storage/90/benny.webp
+https://www.ciba.co.in/storage/1643/discussion-hall.webp
+https://www.ciba.co.in/storage/1477/nakul310x310.webp
+https://www.ciba.co.in/frontend/images/rarw1.svg
+https://www.ciba.co.in/storage/84/lead-1_11zon.webp
+https://www.ciba.co.in/storage/83/lead-3.webp
+https://www.ciba.co.in/frontend/images/inter.svg
+https://www.ciba.co.in/storage/856/recruitment_logo3.webp
+https://www.ciba.co.in/storage/1610/2.webp
+https://www.ciba.co.in/frontend/images/q1.png
+https://www.ciba.co.in/storage/1572/WhatsApp-Image-2024-12-05-at-10.11.29-AM-(3)_11zon.webp
+https://www.ciba.co.in/storage/1647/3.webp
+https://www.ciba.co.in/storage/855/recruitment_logo4.webp
+https://www.ciba.co.in/storage/1435/training_img2.webp
+https://www.ciba.co.in/storage/854/recruitment_logo5.webp
+https://www.ciba.co.in/storage/1611/3.webp
+https://www.ciba.co.in/storage/1577/specialization_img1-min.webp
+https://www.ciba.co.in/storage/1503/WhatsApp-Image-2025-05-05-at-12.37.37-PM-(1)-(1).webp
+https://www.ciba.co.in/storage/1109/industry_img3.webp
+https://www.ciba.co.in/storage/1559/mission_img1.svg
+https://www.ciba.co.in/storage/1506/Picture1.webp
+https://www.ciba.co.in/frontend/images/call-ic-16x.svg
+https://www.ciba.co.in/storage/1108/IMG_8351_11zon.webp
+https://www.ciba.co.in/frontend/images/mail-ic-16x.svg
+https://www.ciba.co.in/frontend/images/location-ic-16x.svg
+https://www.ciba.co.in/storage/998/swayam.webp
+https://www.ciba.co.in/storage/1612/4.webp
+https://www.ciba.co.in/storage/1103/IMG_8541_11zon.webp
+https://www.ciba.co.in/storage/1621/1.webp
+https://www.ciba.co.in/storage/1437/training_img4.webp
+https://www.ciba.co.in/frontend/images/program_curve.png
+https://www.ciba.co.in/storage/986/WhatsApp-Image-2024-12-05-at-10.11.29-AM-(3)_11zon.webp
+https://www.ciba.co.in/storage/1627/1.webp
+https://www.ciba.co.in/storage/1622/2.webp
+https://www.ciba.co.in/storage/1504/3R1A8545-(1).webp
+https://www.ciba.co.in/storage/1587/DSC_2462_11zon.webp
+https://www.ciba.co.in/frontend/images/message_quote.png
+https://www.ciba.co.in/storage/1609/1.webp
+https://www.ciba.co.in/storage/1561/mission_img3.svg
+https://www.ciba.co.in/storage/1466/IMG_8564.JPG
+https://www.ciba.co.in/frontend/images/recruitment_logo1.png
+https://www.ciba.co.in/storage/1507/Vice_Principal-Joy_P_T-2_PQkyNvF-(1).webp
+https://www.ciba.co.in/storage/1640/2.webp
+https://www.ciba.co.in/storage/1623/3.webp
+https://www.ciba.co.in/storage/1641/3.webp
+https://www.ciba.co.in/frontend/images/message_big_quote.png
+https://www.ciba.co.in/storage/1110/industry_img4.webp
+https://www.ciba.co.in/storage/1102/IMG_8426_11zon.webp
+https://www.ciba.co.in/storage/1106/IMG_8557_11zon.webp
+https://www.ciba.co.in/storage/853/recruitment_logo2.webp
+https://www.ciba.co.in/storage/1639/1.webp
+https://www.ciba.co.in/storage/1642/4.webp
+https://www.ciba.co.in/frontend/images/tel-ic-16x.svg
+https://www.ciba.co.in/storage/1624/4.webp
+https://www.ciba.co.in/storage/1505/WhatsApp-Image-2025-05-05-at-12.33.32-PM-(2).webp
+https://www.ciba.co.in/storage/982/DSC_2347_11zon.webp
+https://www.ciba.co.in/storage/1634/2.webp
+https://www.ciba.co.in/storage/1582/DSC_2462_11zon-(2).webp
+https://www.ciba.co.in/storage/1101/WhatsApp-Image-2025-03-18-at-9.15.29-PM_11zon.webp
+https://www.ciba.co.in/storage/1629/3.webp
+https://www.ciba.co.in/storage/1558/Turning-Ambition-into-success.webp
+https://www.ciba.co.in/storage/1635/3.webp
+https://www.ciba.co.in/storage/857/recruitment_logo9.webp
+https://www.ciba.co.in/storage/1628/2.webp
+https://www.ciba.co.in/storage/983/DSC_2327_11zon.webp
+https://www.ciba.co.in/storage/1630/4.webp
+https://www.ciba.co.in/frontend/images/about_curve.svg
+https://www.ciba.co.in/storage/1562/legacy_img_min.webp
+https://www.ciba.co.in/storage/1672/lead_img-min.webp
+https://www.ciba.co.in/storage/1636/4.webp
+https://www.ciba.co.in/storage/1645/1.webp
+https://www.ciba.co.in/frontend/images/pdfIcon.svg
+https://www.ciba.co.in/storage/1618/4.webp
+https://www.ciba.co.in/storage/1560/mission_img2.svg
+https://www.ciba.co.in/storage/1671/a1.webp
+https://www.ciba.co.in/storage/1646/2.webp
+https://www.ciba.co.in/storage/1617/3.webp
+https://www.ciba.co.in/storage/1105/IMG_8541_11zon.webp
+https://www.ciba.co.in/storage/1567/specialization_img1-min.webp
+https://www.ciba.co.in/storage/1615/1.webp
+https://www.ciba.co.in/storage/985/DSC_2451_11zon.webp
+https://www.ciba.co.in/storage/1616/2.webp
+https://www.ciba.co.in/storage/1104/WhatsApp-Image-2025-03-18-at-9.15.29-PM_11zon.webp
+https://www.ciba.co.in/storage/1107/IMG_8426_11zon.webp
+https://www.ciba.co.in/storage/984/DSC_2462_11zon.webp
+https://www.ciba.co.in/storage/1633/1.webp",155,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/155,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 06:53:23,2025-05-09 12:37:46,,,,"After Live,Functional,P3,SEO,Status : New,Type : Bug",0,0
+AlL Forms Validation issues > New checklist,"Name  :
+> 2 characters can be allowed
+> All languages should be accepted
+> Leading and trailing spaces (Accepted with trim spaces)
+ City : 
+
+> 2 characters can be allowed
+> All languages should be accepted
+> Leading and trailing spaces (Accepted with trim spaces)
+
+![image](/uploads/886c322ae8dee45b96654acafe61dcbe/image.png){width=606 height=320}
+
+![image](/uploads/fc09f18f46eb1848b47f55a050eb1f59/image.png){width=304 height=100}
+
+![image](/uploads/b31deca59019bd044bc1c2b84791a606/image.png){width=267 height=106}
+
+![image](/uploads/6b6b7312ab2b50050355ca8d5962e397/image.png){width=299 height=117}
+
+Phone number :
+> https://jam.dev/c/fec2678d-0305-409b-b0d7-e8eb30ac734d
+Message :
+> https://jam.dev/c/91b6b545-5994-4bc0-95fe-f3c766918615
+> https://jam.dev/c/db8b3867-87c3-4728-ac36-e41e4e83266d
+ Please do check all the criteria mentioned in the message fields",156,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/156,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 08:19:29,2025-05-09 08:50:20,,,,"After Live,Functional,P1,Status : New,Type : Bug",0,0
+"Home > Testimonial > In  mobile , The video frame gets too lenghty when compared to desktop",https://jam.dev/c/c4e2aac3-5479-437d-9baf-738ed71ad12f,157,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/157,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 08:29:01,2025-05-09 08:40:06,,,,"After Live,HTML,P2,Responsive,Status : New,Type :  Correction",0,0
+Home and about > LEEP /Messages> Text is not cut off in the last slide on mobile view,![image](/uploads/11845ab06e86106032740358cf33b8ac/image.png){width=265 height=349},158,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/158,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 08:39:49,2025-05-09 08:56:21,,,,"After Live,HTML,P1,Responsive,Status : New,Type :  Correction",0,0
+"Home > Recent events > On mobile , The Lines overlap when sliding",![image](/uploads/a35ab86bc9326f0e3339a37a06b8a1ac/image.png){width=217 height=326},159,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/159,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 08:43:49,2025-05-09 08:43:49,,,,"After Live,HTML,P2,Responsive,Status : New,Type : Bug",0,0
+Header > drop-down > Visibility Issues Occur Before Hovering Over Icons,![image](/uploads/6660d482dfda5883c6543fa816f25e40/image.png){width=593 height=293},160,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/160,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 08:59:29,2025-05-09 08:59:29,,,,"After Live,HTML,P1,Status : New,Type : Bug",0,0
+Common > It would be better to remove the dots and place the arrows for better ux,https://jam.dev/c/21e5d9c0-ba60-447b-80f8-b6b7b3209130,161,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/161,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 09:18:39,2025-05-09 09:18:39,,,,"After Live,HTML,P2,Status : New,Type : Suggestion",0,0
+Corporate Relationship /LEEP /Campus facilities> Side menu bar > Highlighting functionality is not working as expected on mobile view and desktop,"https://jam.dev/c/ee6781f5-104d-4b22-b624-36f408fc72f0
+
+On desktop > there is a delay that occurs while switching the tabs
+
+https://jam.dev/c/428174e2-23b5-4d9e-ac56-fa24be32f196
+
+The selected tab is not being highlighted
+
+https://jam.dev/c/94acc5d2-97b6-4de5-acb2-c701a8e7919c",162,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/162,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 10:01:07,2025-05-09 12:35:12,,,,"After Live,HTML,P3,Responsive,Status : New,Type : Bug",0,0
+Admin mail > Admission /contact form > Specify as Admission /contact enquiry in the subject section for each mail,https://jam.dev/c/207c64f2-a3d7-4ee6-8b83-de287dd16950,163,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/163,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 11:17:08,2025-05-09 11:17:08,,,,"After Live,Functional,P1,Status : New,Type :  Correction",0,0
+Header Menu and ham menu > Dropdown menu > Main menu and Submenus are Not Highlighted,"![image](/uploads/1ffdcf8adc9c8c821d2297e6db50854b/image.png){width=926 height=372}
+
+![image](/uploads/a430a19fc16b6df49b9a28ed9ffba363/image.png){width=938 height=368}",164,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/164,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 11:28:28,2025-05-09 11:28:28,,,,"After Live,Dev Dependency,HTML,P3,Status : New,Type : Bug",0,0
+Remove dummy content on live,"![image](/uploads/10ed6d501541c0215dc97df549e2c27b/image.png){width=959 height=484}
+
+https://www.ciba.co.in/corporate-relationship",165,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/165,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 11:41:07,2025-05-09 11:41:07,,,,"After Live,Functional,P0,Status : New,Type :  Correction",0,0
+Footer > Specialization > Missing hover effect,https://jam.dev/c/37f3b258-5e06-4b06-90af-8525038c99f6,166,https://gitlab.com/ManualProjects/php/cms-advanced/christ-institute/-/issues/166,Open,Aswathi Inter Smart,aswathi5,"","",No,No,,2025-05-09 12:32:28,2025-05-09 12:32:28,,,,"After Live,HTML,P0,Status : New,Type : Enhancement",0,0
