@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Gitlab Snapshots</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #1a1a1a;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            color: #fff;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header img {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        header p {
+            font-size: 1rem;
+            font-weight: 300;
+            color: #757575;
+        }
+        .snapshot-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            width: 100%;
+            padding: 0 20px;
+            margin-bottom: 40px;
+        }
+        .snapshot-grid a {
+            background: #2b2b2b;
+            border: 2px solid #FFC107;
+            border-radius: 10px;
+            padding: 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #FFC107;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        .snapshot-grid a::before {
+            content: '📁';
+            margin-right: 8px;
+            font-size: 1.4rem;
+        }
+        .snapshot-grid a:hover {
+            background: #757575;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .game-button {
+            background: #2b2b2b;
+            border: 2px solid #FFC107;
+            border-radius: 10px;
+            padding: 15px 30px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #FFC107;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-bottom: 40px;
+        }
+        .game-button:hover {
+            background: #757575;
+            color: #fff;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            border-top: 1px solid #757575;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #757575;
+            margin: 5px 0;
+        }
+        footer a {
+            color: #FFC107;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #fff;
+        }
+        /* Popup Styles */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .popup-content {
+            background: #2b2b2b;
+            border: 2px solid #FFC107;
+            border-radius: 15px;
+            padding: 20px;
+            width: 90%;
+            max-width: 600px;
+            position: relative;
+            text-align: center;
+        }
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 1.5rem;
+            color: #FFC107;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+        .close-button:hover {
+            color: #757575;
+        }
+        #game {
+            border: 2px solid #757575;
+            border-radius: 5px;
+        }
+        .game-instructions {
+            color: #FFC107;
+            font-size: 0.9rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="InterSmart Logo">
+        <h1>GITLAB Snapshots</h1>
+        <p>Inter Smart QA Team</p>
+    </header>
+    <button class="game-button" onclick="openPopup()">Play Snake Game</button>
+    <div class="snapshot-grid">
+        <a href="snapshots/MITS">MITS</a>
+        <a href="snapshots/snapshot2">Rastena</a>
+        <a href="snapshots/snapshot3">Christ</a>
+        <a href="snapshots/snapshot3">Scasys</a>
+    </div>
+    <footer>
+        <p>This Page is Created by and is for Inter Smart QA team</p>
+        <p>QA Members:</p>
+        <p>QA Analysts: Aswathi M Asok (<a href="mailto:aswathi@intersmart.in">aswathi@intersmart.in</a>), Minnu Sebastian (<a href="mailto:minnu@intersmart.in">minnu@intersmart.in</a>)</p>
+        <p>Lead QA Analyst: Abhiram P Mohan (<a href="mailto:abhiram@intersmart.in">abhiram@intersmart.in</a>)</p>
+        <p><a href="https://www.intersmartsolution.com/">InterSmart Solution</a> | <a href="https://github.com/">GitHub</a> | <a href="https://www.linkedin.com/">LinkedIn</a></p>
+    </footer>
+
+    <!-- Popup for the Snake Game -->
+    <div class="popup" id="gamePopup">
+        <div class="popup-content">
+            <span class="close-button" onclick="closePopup()">×</span>
+            <div class="game-instructions">Use arrow keys to move the snake and eat the yellow apple!</div>
+            <canvas width="400" height="400" id="game"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // Popup functionality
+        function openPopup() {
+            document.getElementById('gamePopup').style.display = 'flex';
+            startGame();
+        }
+
+        function closePopup() {
+            document.getElementById('gamePopup').style.display = 'none';
+            resetGame();
+        }
+
+        // Snake Game Logic
+        var canvas = document.getElementById('game');
+        var context = canvas.getContext('2d');
+
+        var grid = 16;
+        var count = 0;
+
+        var snake = {
+            x: 160,
+            y: 160,
+            dx: grid,
+            dy: 0,
+            cells: [],
+            maxCells: 4
+        };
+        var apple = {
+            x: 320,
+            y: 320
+        };
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min)) + min;
+        }
+
+        let animationFrameId;
+
+        function loop() {
+            animationFrameId = requestAnimationFrame(loop);
+
+            if (++count < 4) {
+                return;
+            }
+
+            count = 0;
+            context.clearRect(0, 0, canvas.width, canvas.height);
+
+            snake.x += snake.dx;
+            snake.y += snake.dy;
+
+            if (snake.x < 0) {
+                snake.x = canvas.width - grid;
+            } else if (snake.x >= canvas.width) {
+                snake.x = 0;
+            }
+
+            if (snake.y < 0) {
+                snake.y = canvas.height - grid;
+            } else if (snake.y >= canvas.height) {
+                snake.y = 0;
+            }
+
+            snake.cells.unshift({ x: snake.x, y: snake.y });
+
+            if (snake.cells.length > snake.maxCells) {
+                snake.cells.pop();
+            }
+
+            // Draw apple
+            context.fillStyle = '#FFC107';
+            context.fillRect(apple.x, apple.y, grid - 1, grid - 1);
+
+            // Draw snake
+            context.fillStyle = '#757575';
+            snake.cells.forEach(function (cell, index) {
+                context.fillRect(cell.x, cell.y, grid - 1, grid - 1);
+
+                if (cell.x === apple.x && cell.y === apple.y) {
+                    snake.maxCells++;
+                    apple.x = getRandomInt(0, 25) * grid;
+                    apple.y = getRandomInt(0, 25) * grid;
+                }
+
+                for (var i = index + 1; i < snake.cells.length; i++) {
+                    if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
+                        snake.x = 160;
+                        snake.y = 160;
+                        snake.cells = [];
+                        snake.maxCells = 4;
+                        snake.dx = grid;
+                        snake.dy = 0;
+
+                        apple.x = getRandomInt(0, 25) * grid;
+                        apple.y = getRandomInt(0, 25) * grid;
+                    }
+                }
+            });
+        }
+
+        document.addEventListener('keydown', function (e) {
+            if (e.which === 37 && snake.dx === 0) {
+                snake.dx = -grid;
+                snake.dy = 0;
+            } else if (e.which === 38 && snake.dy === 0) {
+                snake.dy = -grid;
+                snake.dx = 0;
+            } else if (e.which === 39 && snake.dx === 0) {
+                snake.dx = grid;
+                snake.dy = 0;
+            } else if (e.which === 40 && snake.dy === 0) {
+                snake.dy = grid;
+                snake.dx = 0;
+            }
+        });
+
+        function startGame() {
+            snake.x = 160;
+            snake.y = 160;
+            snake.cells = [];
+            snake.maxCells = 4;
+            snake.dx = grid;
+            snake.dy = 0;
+            apple.x = 320;
+            apple.y = 320;
+            count = 0;
+            loop();
+        }
+
+        function resetGame() {
+            cancelAnimationFrame(animationFrameId);
+            context.clearRect(0, 0, canvas.width, canvas.height);
+        }
+    </script>
+</body>
+</html>
