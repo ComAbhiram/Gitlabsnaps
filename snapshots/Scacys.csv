@@ -1,0 +1,177 @@
+Title,Description,Issue ID,URL,State,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+Page  speed,"mobile:65
+
+https://pagespeed.web.dev/analysis/https-www-beta-scasys-dev14-intersmarthosting-in/klfnzckq99?form_factor=mobile
+
+desktop:89
+
+https://pagespeed.web.dev/analysis/https-www-beta-scasys-dev14-intersmarthosting-in/klfnzckq99?form_factor=desktop",1,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/1,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 06:51:17,2025-05-08 06:51:17,,,,"Dev Test Phase 1,HTML,Performance,Status : New",0,0
+Minify js->Some JS files are not minified.,https://jam.dev/c/030a4404-1c58-4232-a51b-5dca0861202c,2,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/2,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 06:54:52,2025-05-08 06:54:52,,,,"Dev Test Phase 1,HTML,Performance,Status : New",0,0
+"Navigation menu->When the active menu is “Blog” and the user hovers over the “Product” menu, the blog arrow overlaps with the product dropdown.",https://jam.dev/c/9b487009-63bb-4980-af3c-37537d420234,3,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/3,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 07:48:33,2025-05-08 07:48:33,,,,"Dev Test Phase 1,HTML,P2,Status : New,Type : Bug",0,0
+Navigation Menu → Services/Product-> The active menu indicator line appears outside the sticky header.,https://jam.dev/c/a113e816-c546-475a-8f2a-588d39628818,4,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/4,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 07:56:51,2025-05-08 07:56:51,,,,"Dev Test Phase 1,Frontend,HTML,P4,Status : New,Type : Bug",0,0
+Footer → Logo Redirection-> The logo in the footer does not have a redirection link configured.,https://jam.dev/c/1de6d92c-11d5-4e68-912a-0b4b5015f6b6,5,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/5,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 08:01:01,2025-05-08 08:01:01,,,,"Dev Test Phase 1,Frontend,HTML,P2,Status : New,Type : Bug",0,0
+"Mac->Home → Case Studies-> Sliders are displayed horizontally, and the text on the sliders appears broken or misaligned.","",6,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/6,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 08:02:39,2025-05-08 08:02:39,,,,"Dev Test Phase 1,Frontend,HTML,P1,Status : New,Type : Bug",0,0
+"Chatbot-> The chatbot overlaps with the scroll-to-top button,",https://jam.dev/c/d24ba4ae-28c6-4a2f-ae4f-0d34d58ea573,7,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/7,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 08:04:08,2025-05-08 08:04:08,,,,"Dev Test Phase 1,HTML,P3,Status : New,Type : Bug",0,0
+Navigation Dropdown Arrows->Dropdowns should open on mouse hover  on arrow mark for improved UX.,https://jam.dev/c/d1076273-b9d9-4dbd-95ea-2007c7f88882,8,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/8,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 08:06:56,2025-05-08 08:07:13,,,,"Dev Test Phase 1,Frontend,HTML,Status : New,Type : Enhancement",0,0
+User mail->Unnecessary white space is visible.,https://jam.dev/c/38af805d-7f38-4bfc-95a1-ebf89cebaae8,9,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/9,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 08:11:53,2025-05-08 08:11:53,,,,"Dev Test Phase 1,Functional,Status : New,Type : Enhancement",0,0
+Form validation Issues,"'-**> please refer new checklist**
+1.Name-\> All languages should be accepted
+
+2:Name -\>trailing space need to be trimmed
+
+https://jam.dev/c/0bc8d271-590e-48ad-b045-933077157579
+
+2.Name-\>name with special characters
+
+eg:O'Connor-Smith
+
+3.Phone:number with spaces(trimming is not working)
+
+https://jam.dev/c/2e17eb08-380f-4e7a-9c4e-56807e77be24
+
+4.phone number-While entering (script/SQL injection) then correct the error message
+
+https://jam.dev/c/cbbb099b-0927-47e5-9960-044d5df0acae
+
+https://jam.dev/c/ff3f0cc8-e391-41c1-a603-5d861c58273e
+
+5.phone number:Invalid phone number format (like `++1234567890`) and no error message appears
+
+https://jam.dev/c/b3907121-1a1f-4d0e-b989-cc44e3185674
+
+6:phone number: The phone number field is accepting all zero
+
+https://jam.dev/c/30f07f4d-f73e-4225-9d44-8657db2d313d
+
+7:phone number: spaces between digits in the phone number (e.g., `+123 456 7890`) should be accepted, but currently they're being rejected
+
+8:Message: SQL injection and template injection is possible through the message field; make the input is not being rejected
+
+8:Message: The message field allows multiple tab and newline characters, which should be restricted
+
+https://jam.dev/c/5b555365-4732-4c72-8ada-d1459b3e4baa
+
+https://jam.dev/c/7c72b939-4b18-4b43-a4dc-28540e3d3a3f",10,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/10,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 09:14:17,2025-05-13 06:24:33,,,,"Dev Test Phase 1,Frontend,Functional,Multi Bugs(Check Description),P1,Status : New,Type : Bug",0,0
+"career->Apply now->When a user types something in a side pop-up, then closes it and opens another career pop-up, the old data and error messages are still there",https://jam.dev/c/9b50d805-0b53-41d0-b06a-029faa098e9d,11,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/11,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 09:24:21,2025-05-08 09:26:28,,,,"Dev Test Phase 1,Frontend,Functional,P3,Status : New,Type : Bug",0,0
+career form,"1:File upload-\>the file name overlaps
+
+https://jam.dev/c/e9791c4c-71a1-4e7b-941b-5e42923e4aa0",12,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/12,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 09:32:26,2025-05-08 09:32:26,,,,"Dev Test Phase 1,Frontend,HTML,Status : New,Type :  Correction",0,0
+Career-> Cv upload field > Limit the file size according to the server size,https://jam.dev/c/eabf134c-4a22-4924-9c68-d821e2df44b3,13,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/13,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 09:34:49,2025-05-08 09:34:49,,,,"Dev Test Phase 1,Frontend,Functional,P0,Status : New,Type : Bug",0,0
+Contact/Career->The current common 'Thank you' Email  is used for both the contact and career forms.,"",14,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/14,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 09:46:41,2025-05-08 09:47:01,,,,"Clarification Required From Developer,Dev Test Phase 1,Functional,Status : New",0,0
+"Contact/Career->phone number->User enters 5 digits in the phone number field and tries to submit the form. The form doesn’t submit, and no error message is shown. After entering 10 digits(default flag:india), the form submits successfully.",https://jam.dev/c/41ced9ab-7233-4fd5-a558-60eecb75b96d,15,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/15,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:00:13,2025-05-08 10:00:41,,,,"Frontend,Functional,Status : New,Type : Bug",0,0
+Product->procqur->Need to open a new tab for the external website.,https://jam.dev/c/deb82a2e-745e-481a-9d86-9ca744b8cc96,16,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/16,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:06:38,2025-05-08 10:48:11,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+Home->Our Services->Show the 'View All' button when there are more than 3 services.,https://jam.dev/c/734faa44-fa89-44ae-b1e6-b0c0c19d73b3,17,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/17,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:11:23,2025-05-08 10:11:23,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+Backend->Home->cms->The field name mentioned in the description is not being updated on the frontend from the backend,"1:**Section Five Heading** 
+
+**2:Section Five Title** 
+
+**3:Section Five Description**
+
+**4:Section Seven Title**
+
+**5:Section Seven Button Title**
+
+**6:Section Seven Button Url**
+
+https://jam.dev/c/e44d3183-c8fe-4106-b37a-b5f55415d643",18,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/18,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:23:40,2025-05-08 10:24:23,,,,"Backend,Dev Test Phase 1,Functional,P0,Status : New,Type : Bug",0,0
+"Backend->image fields->The added image gets removed from the backend, resulting in a broken image being displayed on the frontend((common issue in backend for the image field that not marked as mandatory sign from the backend)","**Note:Either place a placeholder image or make the image sections mandatory from the backend(common for all image field)**
+
+https://jam.dev/c/dfb7a3d5-f34c-4346-baf8-7aaa83884d3e
+
+https://jam.dev/c/915a3bb5-26ad-4b2b-82fa-9960810178c8
+
+### Note:Make sure that no broken images appear on the frontend across the website",19,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/19,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:30:07,2025-05-09 04:51:16,,,,"Dev Test Phase 1,Frontend,Functional,P0,Status : New,Type : Bug",0,0
+Home->Talk to expert->Show the button on the frontend only if the button URL is added from the backend,https://jam.dev/c/d11ef30e-aa92-489c-875d-6739167e0995,20,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/20,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:42:06,2025-05-08 10:42:06,,,,"Backend,Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+Backend->Home->cms->Meta tags->keywords->The keyword field is not being saved on the backend.,https://jam.dev/c/9abc9afd-49e1-44ef-ac5a-308ae952a8eb,21,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/21,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 10:52:21,2025-05-08 10:52:21,,,,"Backend,Dev Test Phase 1,Functional,P1,Status : New,Type : Bug",0,0
+"Backend->Home->Slider->The message 'Something went wrong' appears, but no specific error is shown to indicate what caused the issue","https://jam.dev/c/8f94dd53-0e71-45a6-807b-1c25fec34db4
+
+**Notes**
+
+**Title**:give 255 character in the title
+
+**Banner Title:** 80 Character",22,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/22,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 11:16:08,2025-05-08 11:16:08,,,,"Backend,Dev Test Phase 1,Functional,Status : New,Type : Bug",0,0
+Frontend->Home ->Slider->Make sure that the text does not overflow or go outside the image,https://jam.dev/c/e0367a2d-6b9e-4aba-942d-649b50e43295,23,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/23,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 11:28:46,2025-05-08 11:28:46,,,,"Dev Test Phase 1,Frontend,HTML,Status : New,Type :  Correction",0,0
+Backend->Home ->Slider->Image field->Dimension are not mentioned,"https://jam.dev/c/673db608-e2fd-447e-8cfe-3a1010c0de3b
+
+**Note: Ensure that all image dimensions are specified in the image field on the backend**",24,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/24,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 11:32:52,2025-05-08 11:35:09,,,,"Backend,Dev Test Phase 1,Functional,Status : New,Type :  Correction",0,0
+Backend->Home->cms->Client section->100% Client satisfaction->The section is not dynamic,https://jam.dev/c/5f5297dd-59dc-4832-8282-61073e186192,25,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/25,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 11:47:35,2025-05-08 11:47:35,,,,"Backend,Dev Test Phase 1,P1,Status : New,Type : Bug",0,0
+Home->testimonials->Adding more testimonials causes the design to look off,https://jam.dev/c/3d9b6868-d3fb-4c18-9e78-1a7e3c2b16a8,26,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/26,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 12:15:10,2025-05-08 12:20:09,,,,"Clarification Required From PC,Frontend,Status : New",0,0
+Home->Our clients->Status ->The status field is missing,https://jam.dev/c/b49e210c-12d4-41d1-8d30-fb950074f34d,27,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/27,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 12:23:00,2025-05-08 12:23:10,,,,"Backend,Dev Test Phase 1,Functional,P1,Status : New,Type : Bug",0,0
+Backend->Home->cms->Testimonials->Column  name->Spelling issues Found,"https://jam.dev/c/4274ebad-4f75-425e-a926-de39243177e0
+
+same
+
+1:Case study-\>Management-\>**Challege Title/Sollution Title/Sollution Content**",28,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/28,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 12:26:38,2025-05-13 06:25:54,,,,"Backend,Dev Test Phase 1,Functional,Multiple Issues Inside,Status : New,Type :  Correction",0,0
+Admin is not receiving.,"",29,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/29,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 12:47:47,2025-05-08 12:47:47,,,,"Dev Test Phase 1,Functional,P2,Status : New,Type : Bug",0,0
+Backend->About->cms->core value/Vision/Mission->Section is congested,https://jam.dev/c/0e24e0ef-91d9-44c6-91b0-52d124b0d1dd,30,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/30,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-08 13:00:17,2025-05-08 13:00:47,,,,"Backend,Functional,Status : New,Type :  Correction",0,0
+Frontend->About->Section four(case studies)->The data is not getting updated on the frontend.,"
+backend-\>About-\>cms-\>Section four(case studies)-\>The data is not getting updated on the frontend.
+
+backend: https://jam.dev/c/e4865563-7e9c-4822-8294-58bc9a8037c6
+
+frontend:https://jam.dev/c/939a6a73-3e49-4f4b-b78f-5590bf0583d9",31,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/31,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 04:35:54,2025-05-09 04:35:54,,,,"Dev Test Phase 1,Frontend,Functional,P1,Status : New,Type : Bug",0,0
+Frontend->About->Counter animation is not working,https://jam.dev/c/d13fcd84-fcba-42de-b4e2-09c2c477cd52,32,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/32,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 04:42:21,2025-05-09 04:42:21,,,,"Dev Test Phase 1,Frontend,Functional,P1,Status : New,Type : Bug",0,0
+"Frontend->About->Our clients->The design of the ""Our Clients"" section does not match the UX","ux:https://jam.dev/c/bef24986-a2ad-463b-a88e-0565e039a5a0
+
+dev:https://jam.dev/c/6d072322-e666-4130-926e-9bbae20207b3",33,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/33,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 04:47:41,2025-05-09 04:47:41,,,,"Dev Test Phase 1,Frontend,HTML,P1,Status : New,Type : Bug",0,0
+"Backend->About->count->Currently, the 'Create New Counter' option is not visible in the backend",https://jam.dev/c/11cb28af-1cfc-4f6b-9de1-ac8084d84bc1,34,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/34,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 05:04:22,2025-05-09 05:04:22,,,,"Backend,Clarification Required From Developer,Dev Test Phase 1,Functional,Status : New",0,0
+About->Our Professional Team->The text is not visible on the white background,https://jam.dev/c/ec9b2a62-c938-4b0a-a248-c61d0b515ba4,35,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/35,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 05:24:10,2025-05-09 05:24:10,,,,"Dev Test Phase 1,Frontend,HTML,P1,Status : New,Type : Bug",0,0
+Backend->cms->Heading/Title/Description-> The datas are not upadting on the frontend,"backend: https://jam.dev/c/90d191cb-0ec4-404f-98c4-4bc0fcfb54af
+
+frontend:https://jam.dev/c/4c2670dd-cf96-4e4b-a3e3-f7473b144c9a",36,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/36,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 05:43:56,2025-05-09 05:43:56,,,,"Dev Test Phase 1,Frontend,Functional,P1,Status : New,Type : Bug",0,0
+Backend->Sidemenu bar->Highlight the active menu,https://jam.dev/c/7b35f809-0fa3-43a4-a812-38eb8f840c67,37,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/37,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 05:49:26,2025-05-09 05:49:26,,,,"Backend,Dev Test Phase 1,Functional,Status : New,Type :  Correction",0,0
+Backend->case study->Cms->Common Section Button Title->Type->External->External  link->When the external URL given the URL not get saved on the backend,"https://jam.dev/c/485ee25d-f0ff-499f-803a-e10d197bde3a
+
+**Note:Need to validate the  URL and make sure that the external link need top open in a new tab on the frontend**",38,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/38,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 06:19:18,2025-05-09 06:19:18,,,,"Backend,Dev Test Phase 1,Functional,P1,Status : New,Type : Bug",0,0
+"careers->In the listing page the Job title ,time fields  datas   missing like given on the UX","UX:https://jam.dev/c/a918ab57-fe1c-4e9d-a81e-f7a2d08be02a
+
+ dev:https://jam.dev/c/e0200d33-fae4-4fc5-88c9-bd6e59012cab",39,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/39,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 06:46:25,2025-05-09 06:46:25,,,,"Dev Test Phase 1,Frontend,Functional,P1,Status : New,Type : Bug",0,0
+"career pop up->When clicking the upload button, the chatbot sometimes opens unexpectedly",https://jam.dev/c/2f2e885b-bbac-462f-8d5f-8e6e7796d25f,40,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/40,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 06:51:43,2025-05-09 06:51:43,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+Blog listing->Blog title->Limit the blog title after a particular character limit,https://jam.dev/c/954a09ba-3883-4f7c-9f0a-63434387a68b,41,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/41,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:02:14,2025-05-09 07:02:14,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+"Blog listing->Show pagination only after adding a specific number of blogs to the first listing page, then allow navigation to the next page.",https://jam.dev/c/47646f92-d182-4acd-93b2-9315249a6dd6,42,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/42,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:07:52,2025-05-09 07:07:52,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+"Backend->Blog listing->view icon->Currently, only the blog title and image are visible; the other content is not displayed",https://jam.dev/c/52e3ab7d-cdf2-4a02-9089-0e6bb72400bb,43,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/43,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:12:50,2025-05-09 07:12:50,,,,"Backend,Dev Test Phase 1,Functional,P1,Type : Bug",0,0
+Backend->Blog detail->Slug ->the slug is not get updated correctly,https://jam.dev/c/b6f670a5-822b-4529-976d-6ffd437454a4,44,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/44,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:20:11,2025-05-09 07:20:11,,,,"Backend,Dev Test Phase 1,Functional,P1,Status : New,Type : Bug",0,0
+"Backend->Blog detail->Latest blog->although it is not marked as mandatory, the user can only submit the page with the latest title.",https://jam.dev/c/63066dcf-0ca0-4193-997d-8c5f1f248acd,45,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/45,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:33:26,2025-05-09 07:33:26,,,,"Backend,Dev Test Phase 1,Functional,Status : New,Type :  Correction",0,0
+Frontend->Blog listing->Maintain the same container height,https://jam.dev/c/e03ec791-24dc-4546-a427-037075e0777c,46,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/46,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 07:35:15,2025-05-09 07:35:15,,,,"Dev Test Phase 1,Frontend,HTML,Status : New,Type :  Correction",0,0
+Backend->Blog detail->Meta-->Added keyword is not get saved on the backend,"https://jam.dev/c/e4750f81-800b-40ec-bc8c-f1982fb11a33
+
+Same
+
+1:Banner and Meta tags-\>About-\>Keyword
+
+2;Banner and Meta tags-\>Case study-\>Keyword
+
+3.Banner and Meta tags-\>Career-\>Keyword",47,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/47,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 08:18:47,2025-05-09 11:19:32,,,,"Backend,Dev Test Phase 1,Functional,Multi Bugs(Check Description),P3,Status : New,Type : Bug",0,0
+Frontend->Blogs ->Meta tags are not updating on the frontend,"",48,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/48,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 08:22:53,2025-05-09 08:22:53,,,,"Dev Test Phase 1,Frontend,Functional,P3,Status : New,Type : Bug",0,0
+Frontend->Blogs  detail->Recent blogs->always showing three,"https://jam.dev/c/e8aa4aad-1c5c-4f26-88a3-43b71efecaf4
+
+ux:https://jam.dev/c/1a6bc8f0-0a94-45f1-8a40-143572ea1d0b",49,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/49,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 08:26:21,2025-05-09 08:26:21,,,,"Dev Test Phase 1,Frontend,Functional,P1,Status : New,Type : Bug",0,0
+Backend->Product detail->Preview image->Broken image,https://jam.dev/c/2a48c2cd-a3ec-40f5-b0ab-0580b58c1142,50,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/50,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 08:47:35,2025-05-09 08:47:35,,,,"Backend,Dev Test Phase 1,Functional,P1,Status : New,Type : Bug",0,0
+Backend->Product detail->give sort order individually inside each some menu,https://jam.dev/c/942201ba-6ac3-4a6b-9851-e05a84612479,51,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/51,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 09:21:54,2025-05-09 09:21:54,,,,"Backend,Dev Test Phase 1,Functional,Status : New,Type : Suggestion",0,0
+"Services->while creating service section,database error came",https://jam.dev/c/aa210ad5-5f5d-4a91-9571-5cfbd2127e8b,52,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/52,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 10:07:03,2025-05-09 10:11:43,,,,"Backend,Dev Test Phase 1,Functional,P0,Status : New,Type : Bug",0,0
+Mobile responsive->Banner and metatags->The added mobile banner is not getting updated in the mobile view(common issue),https://jam.dev/c/331beb58-8517-4bdf-8f16-4325d67d94f1,53,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/53,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 11:03:22,2025-05-09 11:07:49,,,,"Dev Test Phase 1,Functional,P1,Responsive,Status : New,Type : Bug",0,0
+"Mobile  responsive->Banner and metatags->If no mobile banner is added, the desktop banner is displayed instead",https://jam.dev/c/b7d957be-e5c5-46aa-8868-2996b918bee3,54,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/54,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 11:16:17,2025-05-09 11:16:17,,,,"Clarification Required From PC,Dev Test Phase 1,Functional,Responsive,Status : New",0,0
+case study->The menu is not getting highlighted when on the Case Detail page,"",55,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/55,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 12:56:25,2025-05-09 12:56:25,,,,"Dev Test Phase 1,Frontend,Functional,Status : New,Type :  Correction",0,0
+Home->What We Offer->View All-> filckering issue,"",56,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/56,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-09 13:01:00,2025-05-09 13:01:00,,,,"Dev Test Phase 1,Frontend,HTML,P1,Status : New,Type : Bug",0,0
+Home : Our Clients :  The floating image should appear when the section is visible,"![Screenshot_2025-05-13_at_11.35.51_AM](/uploads/b811ccd8df66fe0cc10ba4436999a9fc/Screenshot_2025-05-13_at_11.35.51_AM.png)
+
+![Screenshot_2025-05-13_at_11.35.58_AM](/uploads/413bc88bbf47ee3cd5d3e6c85aaea1f5/Screenshot_2025-05-13_at_11.35.58_AM.png)",57,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/57,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:06:19,2025-05-13 06:09:32,,,,"Dev Test Phase 1,HTML,P3,Status : New,Type : Bug",0,0
+Home : CASE STUDIES : Text is truncated and the animation is choppy,"![Screenshot_2025-05-13_at_11.38.45_AM](/uploads/f91658bd49bdeeed1af4e21b87873af5/Screenshot_2025-05-13_at_11.38.45_AM.png)
+
+https://www.beta.scasys.dev14.intersmarthosting.in",58,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/58,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:09:09,2025-05-13 06:09:26,,,,"Dev Test Phase 1,HTML,P4,Status : New,Type : Bug",0,0
+Home : OUR SERVICES:  What We Offer : The hover animation is not always working,![Screenshot_2025-05-13_at_11.40.55_AM](/uploads/d9c95949e176a8d141ec197746955140/Screenshot_2025-05-13_at_11.40.55_AM.png),59,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/59,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:11:25,2025-05-13 06:11:25,,,,"Dev Test Phase 1,HTML,P2,Status : New,Type : Bug",0,0
+Home : Our Elite Clients : the bulb  image shows outside the box on mobile,"![Screenshot_2025-05-13_at_11.42.48_AM](/uploads/948f5b5ae6377b79a133e7509b196b83/Screenshot_2025-05-13_at_11.42.48_AM.png)
+
+https://www.beta.scasys.dev14.intersmarthosting.in",60,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/60,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:13:17,2025-05-13 06:13:17,,,,"Dev Test Phase 1,HTML,P2,Status : New,Type : Bug",0,0
+Home : CASE STUDIES : The second slider size is shorter in the mobile view,![Screenshot_2025-05-13_at_11.46.20_AM](/uploads/eccd62ca223aeac423bd22cc3c9b7b0a/Screenshot_2025-05-13_at_11.46.20_AM.png),61,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/61,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:17:05,2025-05-13 06:17:05,,,,"Dev Test Phase 1,HTML,P4,Status : New,Type : Bug",0,0
+Floating chat widget is hiding the scroll to top arrow and is having a cut on the top,"![Screenshot_2025-05-13_at_11.49.57_AM](/uploads/99844381565b54affd7c96d3ed632644/Screenshot_2025-05-13_at_11.49.57_AM.png)
+
+![Screenshot_2025-05-13_at_11.50.05_AM](/uploads/8e1b41e74603d36af3ef4bbbe96daee7/Screenshot_2025-05-13_at_11.50.05_AM.png)",62,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/62,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:20:29,2025-05-13 06:20:29,,,,"Dev Test Phase 1,HTML,P2,Status : New,Type : Bug",0,0
+Contact : Phone : need gap between + icon and flag,![Screenshot_2025-05-13_at_11.51.38_AM](/uploads/66c598ec122ec84cbc686b0d6728f6e0/Screenshot_2025-05-13_at_11.51.38_AM.png),63,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/63,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:22:16,2025-05-13 06:22:16,,,,"Dev Test Phase 1,HTML,P4,Status : New,Type : Enhancement",0,0
+Contact Form: Improved Placeholder Text Suggestions,"✅ Improved Placeholder Text Suggestions:
+Field	Current Placeholder	Suggested Placeholder
+Name	Fill in your name	Enter your full name
+Phone	Fill in your Phone Number	Enter your phone number
+Email	Fill in your Email	Enter your email address
+Message	Enter Text Here	Type your message here",64,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/64,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:32:31,2025-05-13 06:32:31,,,,"Dev Test Phase 1,HTML,P4,Status : New,Type : Suggestion",0,0
+Career : Apply Here : slightly uplift the Upload file button,![Screenshot_2025-05-13_at_12.11.20_PM](/uploads/b1a8e698934cf743084c6e77e4db5e24/Screenshot_2025-05-13_at_12.11.20_PM.png),65,https://gitlab.com/ManualProjects/php/cms_php_cust_15/scasys/-/issues/65,Open,BugSlayer,abhiram9,"","",No,No,,2025-05-13 06:42:06,2025-05-13 06:42:06,,,,"Dev Test Phase 1,HTML,Status : New,Type : Enhancement",0,0
