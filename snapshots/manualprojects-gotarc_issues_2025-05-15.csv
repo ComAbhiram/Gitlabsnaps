@@ -1,0 +1,79 @@
+Title,Description,Issue ID,URL,State,Author,Author Username,Assignee,Assignee Username,Confidential,Locked,Due Date,Created At (UTC),Updated At (UTC),Closed At (UTC),Milestone,Weight,Labels,Time Estimate,Time Spent
+Make the screen 75% smaller compared to the design,"figma: https://jam.dev/c/725b284e-52c4-4c6b-9f2a-b7d2e6447cc3
+
+ux( screen reduce to 75%):https://jam.dev/c/287f7f6c-7cd3-4c54-9c4c-a389622a0bff
+
+ux(screen 100%):https://jam.dev/c/8d5a4a8d-94e5-402c-9e51-0fb61cba2772",1,https://gitlab.com/ManualProjects/gotarc/-/issues/1,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 06:14:11,2025-05-15 06:59:35,,,,"Frontend,HTML,P3,Status : New,Type : Bug",0,0
+Navigation menu ->Font size ->Please check the font size of the navigation menu—there is a variation compared to the Figma design.,"Figma:https://jam.dev/c/590496e9-5eb6-47c5-8831-02372e68ce89
+
+ux:https://jam.dev/c/590496e9-5eb6-47c5-8831-02372e68ce89",2,https://gitlab.com/ManualProjects/gotarc/-/issues/2,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 06:27:05,2025-05-14 06:27:05,,,,"Clarification Required From Developer,HTML,Status : New",0,0
+Home ->A blank space is visible at one point. It would be better to conditionally hide this section when there is no content to display.,https://jam.dev/c/8b54321b-5bbe-46fa-ba4d-444ebdaac245,3,https://gitlab.com/ManualProjects/gotarc/-/issues/3,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 06:47:13,2025-05-14 06:47:13,,,,"Clarification Required From PC,HTML,Type : Suggestion",0,0
+"Buttons-> When the user hovers over the button with the hover color effect, it would be a good  to change the direction of the arrow",https://jam.dev/c/fe0262fd-30b4-4168-b76a-1c10d29b8596,4,https://gitlab.com/ManualProjects/gotarc/-/issues/4,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 06:53:55,2025-05-14 06:54:07,,,,"Clarification Required From PC,HTML,Status : New,Type : Enhancement",0,0
+"Home slider->When multiple slider images or videos are displayed, there is currently no indication or marker to show the active slide","",5,https://gitlab.com/ManualProjects/gotarc/-/issues/5,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 06:56:19,2025-05-14 06:56:19,,,,"Clarification Required From PC,HTML,Status : New",0,0
+"Home->Broaden Your Horizons->The section in Figma contains 3 images, and the container height appears different from the UX","UX:https://jam.dev/c/cf76945c-eab0-406d-9cbe-14cc6b49eaaf
+
+Figma:https://jam.dev/c/88690154-f710-461a-bf69-2cc25ed610f1",6,https://gitlab.com/ManualProjects/gotarc/-/issues/6,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 07:00:21,2025-05-15 06:58:59,,,,"Deviation,HTML,P3,Status : New",0,0
+Home->Voices From The Heights->Navigation arrow->Give a color change to the right navigation arrow like in the figma,"Figma:https://jam.dev/c/96dd5b41-3b62-4ef8-b3de-e397c41f5a44
+
+ux: https://jam.dev/c/9048a5af-c7d6-45cc-8674-3bdac63ed3d6
+
+Same
+
+1:Training-\>Testimonials
+
+https://jam.dev/c/687546bf-7788-44a9-8640-a4b2110a0bb4",7,https://gitlab.com/ManualProjects/gotarc/-/issues/7,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 07:06:31,2025-05-15 06:50:00,,,,"HTML,Multiple Issues Inside,P3,Status : New,Type : Bug",0,0
+Home->Voices From The Heights-The navigation arrows need to be aligned and also correct the width of tharrow like in the figma,"https://jam.dev/c/50ac294c-c10d-4bb2-a4e6-957587fd6d27
+
+Same
+
+1:Home-\>voices from the height
+
+https://jam.dev/c/5bd5c5a6-4918-46a1-86a2-d526c4b84137
+
+2:Training-\>Testimonials
+
+https://jam.dev/c/6c40e951-69f4-46ed-8a5a-7a00ca2de371
+
+**Note:Please check all arrows across the website**",8,https://gitlab.com/ManualProjects/gotarc/-/issues/8,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 07:09:25,2025-05-15 06:46:24,,,,"HTML,Multiple Issues Inside,Status : New,Type :  Correction",0,0
+Home->slider->video->The home slider changes to the next slide before the video finishes playing,"",9,https://gitlab.com/ManualProjects/gotarc/-/issues/9,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 07:40:03,2025-05-14 07:40:03,,,,"Clarification Required From Developer,HTML,Status : New",0,0
+Mobile responsive->ios->Home->Latest updates->Smooth the flow of the marquee text,"same issue
+
+1:Mac-\>home",11,https://gitlab.com/ManualProjects/gotarc/-/issues/11,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 07:55:56,2025-05-15 06:32:44,,,,"HTML,Multiple Issues Inside,P2,Responsive,Status : New,Type :  Correction",0,0
+Mobile responsive->ios->Home->Broaden Your Horizons->Increase  the background color behind the text,https://jam.dev/c/263e934c-dbf9-4fa2-939c-44a997b8ca76,12,https://gitlab.com/ManualProjects/gotarc/-/issues/12,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 08:01:01,2025-05-15 06:58:04,,,,"HTML,P3,Status : New,Type :  Correction",0,0
+"Mobile responsive->ios,Android->Scroll up arrow  is not easily visible on white background",https://jam.dev/c/f4e1d406-c6a9-40b5-98ae-19fbd563e7de,13,https://gitlab.com/ManualProjects/gotarc/-/issues/13,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 08:05:55,2025-05-15 06:56:41,,,,"HTML,P2,Responsive,Status : New,Type : Bug",0,0
+Scroll up arrow ->The background color of the scroll up s not visible on the yellow background,https://jam.dev/c/efd420f3-7ba6-4394-974d-e96a69354763,14,https://gitlab.com/ManualProjects/gotarc/-/issues/14,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 08:08:37,2025-05-15 06:56:20,,,,"HTML,P2,Status : New,Type :  Correction",0,0
+Navigation menu->Program->The animation for the submenus is missing.,"",15,https://gitlab.com/ManualProjects/gotarc/-/issues/15,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 08:13:03,2025-05-15 06:55:04,,,,"HTML,P1,Status : New,Type : Bug",0,0
+Our campuses->Some sections appear different between the Figma design and the current UX.,"figma:https://jam.dev/c/ba59606d-42c5-4bc3-aa28-0ef411f2ea63
+
+ux:https://jam.dev/c/24768de6-805e-4733-b5f0-32afa7d3513f",16,https://gitlab.com/ManualProjects/gotarc/-/issues/16,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 08:56:10,2025-05-15 06:51:32,,,,"Deviation,HTML,P3,Status : New",0,0
+Training->Form->Field mismatch from the figma,"1:Date-\>in the figma DOB is given but in the ux current date
+
+2:Campus  field not in figma but seen in the ux
+
+ux:https://jam.dev/c/2296af16-3bd1-4df5-8427-13ab732712db
+
+figma:https://jam.dev/c/62aad4cc-13f3-4a4a-ba1e-f3f959fc3b85",17,https://gitlab.com/ManualProjects/gotarc/-/issues/17,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 09:28:27,2025-05-14 09:28:27,,,,"Clarification Required From PC,HTML,Status : New",0,0
+Training->Testimonials->It will be good to give auto scroll and looping for the section,https://jam.dev/c/6c40e951-69f4-46ed-8a5a-7a00ca2de371,18,https://gitlab.com/ManualProjects/gotarc/-/issues/18,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 09:33:18,2025-05-15 06:47:06,,,,"HTML,P4,Status : New,Type : Enhancement",0,0
+"Blog/news detail->It will be good to give heading such as ""Recent blogs""",https://jam.dev/c/00764edb-8f8a-463f-8b8d-559f6b71cf44,19,https://gitlab.com/ManualProjects/gotarc/-/issues/19,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 09:51:46,2025-05-14 09:57:17,,,,"Clarification Required From PC,Status : New,Type : Enhancement",0,0
+blog/news detail page->the blog title is not visible on the blog /news detail   page,https://jam.dev/c/74739de0-c3b8-4746-93ba-baa6192eac0a,20,https://gitlab.com/ManualProjects/gotarc/-/issues/20,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 09:59:08,2025-05-14 09:59:08,,,,"Clarification Required From PC,HTML,Status : New",0,0
+Forms(common)->It will be good to provide the sample error message on forms,"",21,https://gitlab.com/ManualProjects/gotarc/-/issues/21,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:01:27,2025-05-15 06:43:38,,,,"HTML,P4,Status : New,Type : Suggestion",0,0
+Mobile responsive->ios->Career Form->Placeholder missing for the  resume uploading field,https://jam.dev/c/8b16670f-b9c6-4b71-af12-8e461da2b6b8,22,https://gitlab.com/ManualProjects/gotarc/-/issues/22,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:27:02,2025-05-15 06:43:19,,,,"HTML,P2,Status : New,Type : Bug",0,0
+Career form-> The job title field is not visible on the form.,"**Note:The address field on the career form seems unnecessary**
+
+https://jam.dev/c/5d568c2b-b069-412e-891c-08d5a431ac11",23,https://gitlab.com/ManualProjects/gotarc/-/issues/23,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:31:31,2025-05-14 10:31:46,,,,"Clarification Required From PC,HTML,Status : New",0,0
+"Voice of heights-> In the video section, the images look cropped. If possible, show the full images to make them clearer and look better.",https://jam.dev/c/5a6ecb39-16e2-4153-876e-23257619fd3e,24,https://gitlab.com/ManualProjects/gotarc/-/issues/24,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:37:45,2025-05-14 10:37:45,,,,"Clarification Required From PC,Status : New",0,0
+Voice of heights->Videos are playing at the same time,https://jam.dev/c/c927bbd4-a062-4189-8393-a0d0f1305db7,25,https://gitlab.com/ManualProjects/gotarc/-/issues/25,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:41:04,2025-05-15 06:42:39,,,,"HTML,P1,Status : New,Type : Bug",0,0
+Mobile responsive->Android->faq-> Please add some space between the text and the accordion icon,https://jam.dev/c/6f93f6f2-25af-4f53-8a44-d1708cc2b6a7,26,https://gitlab.com/ManualProjects/gotarc/-/issues/26,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 10:53:14,2025-05-15 06:42:18,,,,"HTML,P4,Status : New,Type :  Correction",0,0
+"Mobile responsive->ios->On initial page load, the menu section briefly displays with a broken layout before correcting itself.",https://jam.dev/c/bb9e5403-58c9-4e1c-82e9-821b2843fa13,27,https://gitlab.com/ManualProjects/gotarc/-/issues/27,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 11:04:45,2025-05-15 06:41:55,,,,"HTML,P1,Responsive,Status : New,Type : Bug",0,0
+"Mobile responsive->ios,Android -> In mobile view, the footer blends with the rest of the page. Add clearer separation for better visibility.",https://jam.dev/c/4b882b56-067b-4b30-8587-784f1195102f,28,https://gitlab.com/ManualProjects/gotarc/-/issues/28,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 11:09:19,2025-05-15 06:41:14,,,,"HTML,P4,Status : New,Type : Enhancement",0,0
+Terms and condition->Third-party link is not  open in a new tab,https://jam.dev/c/bbaf6b11-4e7d-4e4d-887b-4ddd7a781775,29,https://gitlab.com/ManualProjects/gotarc/-/issues/29,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 11:14:05,2025-05-15 06:40:42,,,,"HTML,P3,Status : New,Type : Bug",0,0
+Mobile responsive->ios->date->Need to correct the  font color of the date,"",30,https://gitlab.com/ManualProjects/gotarc/-/issues/30,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 12:20:51,2025-05-15 06:39:44,,,,"HTML,P3,Status : New,Type :  Correction",0,0
+It would be good to link the pages for better navigation and user experience.,"",31,https://gitlab.com/ManualProjects/gotarc/-/issues/31,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 12:23:28,2025-05-15 06:38:39,,,,"HTML,P4,Status : New,Type : Suggestion",0,0
+"Mobile responsive->ios,Android->hamburger menu->Programme->Remove the image from the mobile view",https://jam.dev/c/8ea58d40-01c8-4ead-a7b4-fec206a1b14d,32,https://gitlab.com/ManualProjects/gotarc/-/issues/32,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 12:45:05,2025-05-15 06:38:18,,,,"HTML,P4,Status : New,Type : Suggestion",0,0
+"Navigation menu->Programme->When the dropdown menu is opened, the plus icon should change to a minus icon to indicate the expanded",https://jam.dev/c/ec206edf-0bb0-43a3-9d4e-a6906d1376fe,33,https://gitlab.com/ManualProjects/gotarc/-/issues/33,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-14 12:49:27,2025-05-15 06:33:20,,,,"HTML,P3,Status : New,Type : Enhancement",0,0
+Navigation  menu->The positions of the navigation menus do not match the design in Figma.( even the screen reduced to  75%),https://jam.dev/c/12bd76f7-7ddd-460e-ada0-a5114887ee67,34,https://gitlab.com/ManualProjects/gotarc/-/issues/34,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 06:08:45,2025-05-15 06:31:16,,,,"Deviation,HTML,P3,Status : New",0,0
+"Home->Adventure Awaits Young Minds->sections 1,2,3->The position of the number  and content is placed  in the correct position like in the figma","",35,https://gitlab.com/ManualProjects/gotarc/-/issues/35,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 06:11:00,2025-05-15 06:31:45,,,,"Deviation,HTML,P3,Status : New",0,0
+Safari->Home->Broaden Your Horizons->correct the transparency of the heading background so that it aligns with the Figma design,https://jam.dev/c/17b72103-76a1-4308-9015-bbf5fff5d66e,36,https://gitlab.com/ManualProjects/gotarc/-/issues/36,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 06:14:21,2025-05-15 06:32:06,,,,"HTML,P4,Status : New,Type :  Correction",0,0
+Safari->About->Counter->Alignment issue in counter section,https://jam.dev/c/34fe82d0-5e69-481e-9e1e-267faa4b8ba9,37,https://gitlab.com/ManualProjects/gotarc/-/issues/37,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 06:24:09,2025-05-15 06:30:48,,,,"HTML,P2,Status : New,Type : Bug",0,0
+Safari->About->Pillars Of TARC->Scroll bar is visible  on the section,https://jam.dev/c/d0bc7bb0-2bec-460a-acae-2e05468161f5,38,https://gitlab.com/ManualProjects/gotarc/-/issues/38,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 06:27:24,2025-05-15 06:30:01,,,,"HTML,P3,Status : New,Type : Bug",0,0
+Privacy policy->Phone number->It will be good to add tel tag to the phone number field,https://jam.dev/c/645f83a0-5747-4502-bd30-62d10fa9d897,39,https://gitlab.com/ManualProjects/gotarc/-/issues/39,Open,Minnu InterSmart,minnu2,"","",No,No,,2025-05-15 07:20:26,2025-05-15 07:20:26,,,,"HTML,P4,Status : New,Type : Suggestion",0,0
